@@ -6,9 +6,12 @@ Orencia, Kim<br/>
 Samuya, Alfred<br/>
 Sonquipal, Emmanuel<br/>
 
+## Code in action
+![finalsLabAct1](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3JzbnB1OXY3eGVoODZ5MjhzcHdwMGg4c2g5YWJvbzJiazZ3MmhhZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0bgg0QV4WMoZS1tIox/giphy.gif)
+
 ## REFLECTION
 ### Misajon_generalReflection
-
+Comparing sequential and parallel algorithms reveals a clear-tradeoff between simplicity and scalability. Sequential execution is highly effecient for small datasets due to its lack of synchronization overhead, but performance drops as data grows. In contrast, parallel processing significantly speeds up large-scale tasks by dividng the workload. However, parallelism introduces implementation changes, like data separation, process management, and merging overhead, making it unnecessary and sometimes slower for smaller tasks.
 
 ### ORENCIA_Sequential_Sorting REFLECTION
 The implementation of the sequential Merge Sort algorithm highlights the fundamental nature of linear control flow, where each step must be completed before the next begins. During testing, I observed that the algorithm performed very efficiently on the Small Dataset (1,000 elements), finishing in 0.001928 seconds. As the workload scales to the Medium and Large datasets, I expect the execution time to grow significantly because the performance depends solely on the efficiency of the single-threaded algorithm rather than hardware scaling. This model is straightforward and predictable, with minimal overhead compared to parallel systems.
@@ -26,5 +29,5 @@ From this activity, I learned that parallel algorithms can potentially improve p
 I discovered that parallel sorting is more complicated than it appears when I put it into practice. Large datasets can be processed more quickly, but there are additional procedures involved, such as data separation, process management, and result merging. Because of this, it didn’t always perform better, especially for smaller inputs.
 
 
-## Parallel_Searching_Samuya
+### Parallel_Searching_Samuya
 In this activity, I learned that parallel searching is a fundamental technique for optimizing data retrieval by breaking down large datasets into smaller, concurrent tasks. By distributing the workload across multiple CPU processes, I was able to see firsthand how performance bottlenecks typical of sequential searches can be mitigated.
